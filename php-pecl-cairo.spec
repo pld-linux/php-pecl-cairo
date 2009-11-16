@@ -12,7 +12,9 @@ Source0:	http://pecl.php.net/get/Cairo-%{version}.tgz
 URL:		http://pecl.php.net/package/Cairo/
 BuildRequires:	cairo-devel
 BuildRequires:	php-devel >= 3:5.0.0
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.344
+BuildRequires:	which
 %{?requires_php_extension}
 Requires:	php-common >= 4:5.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
