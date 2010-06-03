@@ -11,7 +11,7 @@ Source0:	http://pecl.php.net/get/Cairo-%{version}.tgz
 # Source0-md5:	e35ac0eda37e5cd4370858aebe08f0f8
 URL:		http://pecl.php.net/package/Cairo/
 BuildRequires:	cairo-devel
-BuildRequires:	php-devel >= 3:5.0.4
+BuildRequires:	php-devel >= 4:5.0.4
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.344
 BuildRequires:	which
@@ -30,7 +30,7 @@ In PECL status of this extension is: %{status}.
 Summary:	Header files for Cairo PECL extension
 Group:		Development/Libraries
 # does not require base
-Requires:	php-devel >= 3:5.0.4
+Requires:	php-devel >= 4:5.0.4
 
 %description devel
 Header files for Cairo PECL extension.
