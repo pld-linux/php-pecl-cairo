@@ -5,7 +5,7 @@ Summary:	Cairo Graphics Library Extension
 Summary(pl.UTF-8):	Rozszerzenie biblioteki Cairo
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.3.2
-Release:	4
+Release:	5
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/Cairo-%{version}.tgz
@@ -33,6 +33,7 @@ Summary:	Header files for Cairo PECL extension
 Group:		Development/Libraries
 # does not require base
 Requires:	%{php_name}-devel >= 4:5.2.0
+Obsoletes:	php-pecl-cairo-devel < 0.3.2-4
 
 %description devel
 Header files for Cairo PECL extension.
